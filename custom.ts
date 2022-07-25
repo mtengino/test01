@@ -18,12 +18,12 @@ namespace EnginoBit {
    
     }
 
-    /**
-      * Turn off led
-      */
-    //% block="Led Off"
-    export function led_off(): void {
-    }
+    //**
+    //  * Turn off led
+    //  */
+   // //% block="Led Off"
+   // export function led_off(): void {
+  //  }
 
     /**
       * Commands the Ginobot to move forward with speed x (0-100)
