@@ -2,7 +2,7 @@
  * Custom blocks
  */
 
-//% weight=1000 color=#00AFF0 icon="\uf121"
+//% weight=1000 color=#3AFF00 icon="\uf121"
 namespace EnginoBit {
     /**
       * Turn on led for duration
@@ -12,9 +12,9 @@ namespace EnginoBit {
     //% block="Blink Select Pin $pin for $duration milliseconds"
     export function led_on_for_duration(duration: number): void {
     pins.LED.digitalWrite(true)
-    control.waitMicros(duration)
+    control.waitMicros(duration*1000)
     pins.LED.digitalWrite(false)
-    control.waitMicros(duration)
+    control.waitMicros(duration*1000)
    
     }
 
