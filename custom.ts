@@ -7,7 +7,7 @@ namespace EnginoBit {
     /**
       * Turn on led for duration
       * @param pin select pin to blink, eg: LED
-      * @param duration value (milliseconds), eg: 1000 milliseconds
+      * @param duration value (microseconds), eg: 10000 microseconds
       */
     //% block="Blink &pin for $duration milliseconds"
     export function led_on_for_duration(duration: number): void {

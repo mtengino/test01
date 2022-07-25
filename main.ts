@@ -1,4 +1,3 @@
 forever(function () {
-    pins.LED.digitalWrite(false)
-    pins.LED.setPull(PinPullMode.PullDown)
+    EnginoBit.led_on_for_duration(1000)
 })
