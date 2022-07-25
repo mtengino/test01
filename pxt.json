@@ -3,7 +3,7 @@
     "description": "",
     "dependencies": {
         "espressif-esp32-devkit-c": "*",
-        "enums.d.ts": "*",
+        "enumsbit.d.ts": "*",
         "Test01": "github:mtengino/test01#fbadcc5f09cc0ccd7c3a849d41cd944eaca9cf2d"
     },
     "files": [
@@ -11,7 +11,7 @@
         "main.ts",
         "README.md",
         "custom.ts",
-        "enums.d.ts"
+        "enumsbit.d.ts"
     ],
     "testFiles": [
         "test.ts"
