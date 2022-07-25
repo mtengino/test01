@@ -26,7 +26,7 @@ namespace EnginoBit {
       * @param x millis
       */
     //% block="Blink with delay"
-    export function led_on_for_duration(x: millis): void {
+    export function led_on_for_duration(x: number): void {
     }
 
     /**
