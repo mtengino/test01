@@ -2,7 +2,7 @@
  * Custom blocks
  */
 
-//% weight=1000 color=#CD5C5C icon="\uf121"
+//% weight=1000 color=#CD5C5C icon="\f6b0"
 namespace EnginoBit {
     /**
       * Turn on led for duration

@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "espressif-esp32-devkit-c": "*",
-        "Test01": "github:mtengino/test01#fbadcc5f09cc0ccd7c3a849d41cd944eaca9cf2d"
+        "Test01": "github:mtengino/test01#fbadcc5f09cc0ccd7c3a849d41cd944eaca9cf2d",
+        "custom": "github:mtengino/test01#985e4bf25e5d85dc83b7b50648d8e1971a8ef62a"
     },
     "files": [
         "main.blocks",
