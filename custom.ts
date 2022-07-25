@@ -15,7 +15,7 @@ enum pin {
     Low,
     //% block="Pin 3"
     Medium,
-    //% block="Pin 3"
+    //% block="Pin 4"
     High
 }
 
@@ -26,7 +26,7 @@ namespace EnginoBit {
       * @param x pin
       * @param duration value (seconds), eg: 1 second
       */
-    //% block="Blink with delay"
+    //% block="Blink with delay Pin select $x for $duration seconds"
     export function led_on_for_duration(x: pin, duration: number): void {
     }
 
