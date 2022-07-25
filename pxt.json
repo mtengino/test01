@@ -2,12 +2,14 @@
     "name": "Test01",
     "description": "",
     "dependencies": {
-        "espressif-esp32-devkit-c": "*"
+        "espressif-esp32-devkit-c": "*",
+        "Test01": "github:mtengino/test01#fbadcc5f09cc0ccd7c3a849d41cd944eaca9cf2d"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "custom.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -19,5 +21,5 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
