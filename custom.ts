@@ -10,12 +10,12 @@
     High
 }
 
-enum millis {
-    //% block="low"
+enum pin {
+    //% block="Pin 2"
     Low,
-    //% block="medium"
+    //% block="Pin 3"
     Medium,
-    //% block="high"
+    //% block="Pin 3"
     High
 }
 
@@ -23,10 +23,11 @@ enum millis {
 namespace EnginoBit {
     /**
       * Turn on led for duration
-      * @param x value(seconds), eg:1 seconds
+      * @param x pin
+      * @param duration value (seconds), eg: 1 second
       */
     //% block="Blink with delay"
-    export function led_on_for_duration(x: number): void {
+    export function led_on_for_duration(x: pin, duration: number): void {
     }
 
     /**
