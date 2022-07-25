@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_pluginsgem, 'font-awesome-less'
+gem 'github-pages', group: :jekyll_pluginsgem
