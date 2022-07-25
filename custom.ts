@@ -2,7 +2,7 @@
  * Custom blocks
  */
 
-//% weight=1000 color=#CD5C5C icon="<font-awesome-icon icon="fa-light fa-fish" />"
+//% weight=1000 color=#CD5C5C icon="\fa-light fa-fish"
 namespace EnginoBit {
     /**
       * Turn on led for duration
