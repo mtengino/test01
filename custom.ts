@@ -23,7 +23,7 @@ enum millis {
 namespace EnginoBit {
     /**
       * Turn on led for duration
-      * @param x millis
+      * @param x value(seconds), eg:1 seconds
       */
     //% block="Blink with delay"
     export function led_on_for_duration(x: number): void {
