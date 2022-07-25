@@ -75,3 +75,18 @@ namespace EnginoBit {
         if(red>255) red=255
     }
 }
+declare interface test011{
+
+    /**
+     * Set a pin or connector value to either 0 or 1.
+     * @param name pin to write to
+     * @param value value to set on the pin
+     */
+    //% help=pins/digital-write weight=60
+    //% blockId=device_set_digital_pin block="digital write|pin %name|to %value=toggleHighLow"
+    //% blockNamespace=pins
+    //% name.fieldEditor="gridpicker"
+    //% name.fieldOptions.width=220
+    //% name.fieldOptions.columns=4 shim=DigitalInOutPinMethods::digitalWrite
+    digitalWrite(value: boolean): void;
+}
