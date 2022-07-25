@@ -1,23 +1,6 @@
 /**
  * Custom blocks
  */
- enum speed {
-    //% block="low"
-    Low,
-    //% block="medium"
-    Medium,
-    //% block="high"
-    High
-}
-
-enum pin {
-    //% block="Pin 2"
-    PIN_P2,
-    //% block="Pin 3"
-    PIN_P3,
-    //% block="Pin 4"
-    PIN_P4
-}
 
 //% weight=1000 color=#00AFF0 icon="\uf121"
 namespace EnginoBit {
