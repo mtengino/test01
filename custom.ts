@@ -11,6 +11,10 @@ namespace EnginoBit {
       */
     //% block="Blink with delay Pin select $x for $duration seconds"
     export function led_on_for_duration(x: pin, duration: number): void {
+    pins.LED.digitalWrite(true)
+    control.waitMicros(10000)
+    pins.LED.digitalWrite(false)
+    control.waitMicros(10000)
    
     }
 
