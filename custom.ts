@@ -12,11 +12,11 @@
 
 enum pin {
     //% block="Pin 2"
-    Low,
+    PIN_P2,
     //% block="Pin 3"
-    Medium,
+    PIN_P3,
     //% block="Pin 4"
-    High
+    PIN_P4
 }
 
 //% weight=1000 color=#00AFF0 icon="\uf121"
@@ -28,6 +28,7 @@ namespace EnginoBit {
       */
     //% block="Blink with delay Pin select $x for $duration seconds"
     export function led_on_for_duration(x: pin, duration: number): void {
+   
     }
 
     /**
