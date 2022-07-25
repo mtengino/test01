@@ -1,5 +1,5 @@
 {
-    "name": "Test01",
+    "name": "custom",
     "description": "",
     "dependencies": {
         "espressif-esp32-devkit-c": "*",
