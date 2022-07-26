@@ -10,7 +10,7 @@ namespace EnginoBit {
       * @param duration value (microseconds), eg: 10000 microseconds
       */
     //% block="Blink Select Pin $pin for $duration milliseconds"
-    export function led_on_for_duration(duration: number): void {
+    export function led_on_for_duration(x: pin, duration: number): void {
     pins.LED.digitalWrite(true)
     control.waitMicros(duration*1000)
     pins.LED.digitalWrite(false)
@@ -75,7 +75,7 @@ namespace EnginoBit {
         if(red>255) red=255
     }
 }
-declare interface test011{
+declare interface blinky{
 
     /**
      * Set a pin or connector value to either 0 or 1.
@@ -83,7 +83,7 @@ declare interface test011{
      * @param value value to set on the pin
      */
     //% help=pins/digital-write weight=60
-    //% blockId=device_set_digital_pin block="digital write|pin %name|to %value=toggleHighLow"
+    //% blockId=Blinky block="digital write|pin %name|to %value=number"
     //% blockNamespace=pins
     //% name.fieldEditor="gridpicker"
     //% name.fieldOptions.width=220

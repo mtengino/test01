@@ -9,7 +9,7 @@ declare enum speed {
 
 declare enum pin {
     //% block="Pin 2"
-    PIN_P2,
+    LED,
     //% block="Pin 3"
     PIN_P3,
     //% block="Pin 4"
